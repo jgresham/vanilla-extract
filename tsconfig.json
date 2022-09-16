@@ -12,7 +12,6 @@
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "allowJs": true,
-    "incremental": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "isolatedModules": true,
@@ -20,6 +19,7 @@
   },
   "exclude": ["node_modules", "**/dist/**"],
   "include": [
+    "@types/node",
     "@types/testing-library__jest-dom",
     "./jest.setup.ts",
     "packages/**/*",
